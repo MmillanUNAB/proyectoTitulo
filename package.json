@@ -2,16 +2,28 @@
   "name": "proyectotitulo",
   "version": "0.0.1",
   "private": true,
-  "scripts": {
+ "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
   },
+  "rnpm": {
+    "assets": [
+	    "./assets/fonts/"
+    ]
+  },
   "dependencies": {
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/stack": "^6.3.17",
     "react": "17.0.2",
-    "react-native": "0.66.5"
+    "react-native": "0.66.5",
+    "react-native-dropdown-picker": "^5.4.6",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-safe-area-context": "^4.7.1",
+    "react-native-screens": "^3.23.0",
+    "react-native-size-matters": "^0.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
