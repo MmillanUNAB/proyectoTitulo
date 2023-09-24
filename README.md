@@ -9,3 +9,9 @@ Requisitos
 * Vistas:
     * Login
     * Menú
+
+# Version 0.2.0
+*Constants
+*cambios en vistas:
+    *Login
+    *Menú

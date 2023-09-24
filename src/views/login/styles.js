@@ -9,7 +9,7 @@ export default ScaledSheet.create({
         
     },
     titleContainer:{
-        marginTop: '20%'
+        marginTop: '5%'
     },
     title:{
         color:'#fff',
@@ -19,21 +19,21 @@ export default ScaledSheet.create({
 
     },
     title2:{
-        color:'#000',
-        fontSize: 32,
+        color:'#FF0000',
+        fontSize: 36,
         fontWeight: 'bold',
         textAlign: 'center'
 
     },
     title3:{
-        color:'#fff',
-        fontSize: 32,
+        color:'#000',
+        fontSize: 36,
         fontWeight: 'bold',
         textAlign: 'center'
 
     },
     subtitleContainer:{
-        marginTop:'20@vs'
+        marginTop:'10@vs'
 
     },
     subtitle:{
@@ -51,7 +51,7 @@ export default ScaledSheet.create({
         marginTop: '30@vs'
     },
     formInput: {
-        backgroundColor: '#f2f2f2',
+        backgroundColor: '#fff',
         borderRadius: 10,
         borderWidth: 2,
         fontSize: 16,
@@ -71,7 +71,7 @@ export default ScaledSheet.create({
         backgroundColor: '#223bc9',
         borderRadius: 10,
         borderWidth: 2,
-        marginVertical: '10@vs',
+        marginVertical: '5@vs',
         paddingVertical: '8@vs',
         width: '70%'
     },
@@ -80,4 +80,14 @@ export default ScaledSheet.create({
         fontSize: 16,
         textAlign: 'center'
     },
+    logoContainer:{
+        alignItems:'center',
+    },
+    logoImage:{
+        width:250,
+        height:50,
+        borderRadius: 10,
+        resizeMode:'contain'   
+    }
+
 })
