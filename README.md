@@ -15,3 +15,10 @@ Requisitos
 *cambios en vistas:
     *Login
     *Menú
+
+#Version 1.0.0
+*Options
+    *Funciones de botones de menú opciones
+    *Funciones de decarga de archivo historico
+    *Funciones de registro de acciones en BD
+    
